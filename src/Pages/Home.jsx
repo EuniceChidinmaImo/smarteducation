@@ -352,7 +352,7 @@ export default function EdHeadsLanding() {
       </div>
 
       {/* Footer */}
-      <div className="bg-gray-800 text-white py-12 px-6">
+      {/* <div className="bg-gray-800 text-white py-12 px-6">
         <div className="max-w-6xl mx-auto grid md:grid-cols-3 gap-8 mb-8">
           <div>
             <h4 className="text-lg font-bold mb-4">Ed-Heads Tuition – Derby</h4>
@@ -380,7 +380,7 @@ export default function EdHeadsLanding() {
           <p>Ed-Heads is a registered brand, used under licence.</p>
           
         </div>
-      </div>
+      </div> */}
 
       {/* Plan Selection Modal */}
       {showModal && (

@@ -1,4 +1,5 @@
- import Header from "./Components/Header";
+ import Footer from "./Components/footer";
+import Header from "./Components/Header";
 import renderPage from "./Pages/renderPage";
 
 function App() {
@@ -29,10 +30,12 @@ function App() {
 
   const page = renderPage(route);
   return (
-    <div>
-      <Header currentPage={route} /> 
+    <><div>
+      <Header currentPage={route} />
       {page}
     </div>
+
+    <Footer /></>
   );
 }
 

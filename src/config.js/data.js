@@ -2,6 +2,7 @@ export const navigationLinks = [
     { label: 'About Us', id: 'about', link: '/smarteducation/about' },
     { label: 'Contact', id: 'contact', link: '/smarteducation/contact' },
     { label: 'Privacy Policy', id: 'privacy', link: '/smarteducation/privacy' },
+    
   ];
 
 
