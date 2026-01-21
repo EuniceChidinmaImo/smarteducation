@@ -93,7 +93,7 @@ export default function EdHeadsLanding() {
       </div>
 
       {/* Problem → Solution */}
-      <div className="py-16 px-6 bg-white">
+      {/* <div className="py-16 px-6 bg-white">
         <div className="max-w-6xl mx-auto grid md:grid-cols-2 gap-12 items-center">
           <div className='h-[300px]'>
             <span className="inline-block px-3 py-1 bg-red-100 text-red-800 rounded text-xs font-semibold mb-4">The Challenge</span>
@@ -133,7 +133,62 @@ export default function EdHeadsLanding() {
             </div>
           </div>
         </div>
+      </div> */}
+
+      <div className="py-8 sm:py-12 lg:py-16 px-4 sm:px-6 bg-white">
+  <div className="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-8 sm:gap-10 lg:gap-12">
+    {/* The Challenge Section */}
+    <div className="min-h-[300px] sm:h-auto">
+      <span className="inline-block px-3 py-1 bg-red-100 text-red-800 rounded text-xs font-semibold mb-3 sm:mb-4">
+        The Challenge
+      </span>
+      <h3 className="text-2xl sm:text-3xl font-bold mb-4 sm:mb-6">
+        Is Your Child Struggling at School?
+      </h3>
+      <h4 className="text-base sm:text-lg lg:text-xl mb-4 sm:mb-6 text-gray-700">
+        Many students fall behind not because they lack ability — but because they don't get the personalised support they need.
+      </h4>
+      <div className="space-y-3 sm:space-y-4">
+        <div className="flex gap-3">
+          <span className="text-xl sm:text-2xl flex-shrink-0">❌</span>
+          <p className="text-sm sm:text-base">Large classrooms with limited one-to-one attention</p>
+        </div>
+        <div className="flex gap-3">
+          <span className="text-xl sm:text-2xl flex-shrink-0">❌</span>
+          <p className="text-sm sm:text-base">Exam stress and falling confidence</p>
+        </div>
+        <div className="flex gap-3">
+          <span className="text-xl sm:text-2xl flex-shrink-0">❌</span>
+          <p className="text-sm sm:text-base">Gaps in core subjects that go unnoticed</p>
+        </div>
       </div>
+    </div>
+
+    {/* The Solution Section */}
+    <div className="min-h-[300px] sm:h-auto">
+      <span className="inline-block px-3 py-1 bg-green-100 text-green-800 rounded text-xs font-semibold mb-3 sm:mb-4">
+        The Solution
+      </span>
+      <h3 className="text-2xl sm:text-3xl font-bold mb-4 sm:mb-6">
+        A Smarter, More Personal Approach to Tuition
+      </h3>
+      <div className="space-y-3 sm:space-y-4">
+        <div className="flex gap-3">
+          <span className="text-xl sm:text-2xl flex-shrink-0">✅</span>
+          <p className="text-sm sm:text-base">Tailored learning plans built around your child</p>
+        </div>
+        <div className="flex gap-3">
+          <span className="text-xl sm:text-2xl flex-shrink-0">✅</span>
+          <p className="text-sm sm:text-base">Expert tutors supported by smart learning technology</p>
+        </div>
+        <div className="flex gap-3">
+          <span className="text-xl sm:text-2xl flex-shrink-0">✅</span>
+          <p className="text-sm sm:text-base">Real-time progress tracking so you always know how your child is doing</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
 
       {/* Features */}
       <div className="py-16 px-6 bg-blue-50">

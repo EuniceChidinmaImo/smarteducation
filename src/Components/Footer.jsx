@@ -11,6 +11,8 @@ const Footer = () => (
             <p className="cursor-pointer hover:text-orange-400" onClick={() => setCurrentPage('about')}>About Us</p>
             <p className="cursor-pointer hover:text-orange-400" onClick={() => setCurrentPage('contact')}>Contact</p>
             <p className="cursor-pointer hover:text-orange-400" onClick={() => setCurrentPage('privacy')}>Privacy Policy</p>
+            <p className="cursor-pointer hover:text-orange-400" onClick={() => setCurrentPage('contact')}>Contact</p>
+            <p className="cursor-pointer hover:text-orange-400" onClick={() => setCurrentPage('privacy')}>Privacy Policy</p>
           </div>
         </div>
         <div>

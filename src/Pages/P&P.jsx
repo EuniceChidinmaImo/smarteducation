@@ -10,17 +10,17 @@ const PrivacyPage = () => (
         <div className="space-y-8 text-gray-700">
           <section>
             <h3 className="text-2xl font-bold mb-4">1. Introduction</h3>
-            <p>Smart-Edge Education Services Ltd is committed to protecting your privacy. This policy explains how we collect and use your personal data.</p>
+            <p>SmartEdge Education Services Ltd (“we”, “us”, “our”) respects your privacy and is committed to protecting your personal data. This Privacy Policy explains how we collect, use, and safeguard your information when you use our website or services.</p>
           </section>
 
           <section>
-            <h3 className="text-2xl font-bold mb-4">2. Data We Collect</h3>
+            <h3 className="text-2xl font-bold mb-4">2. Who We Are</h3>
             <ul className="space-y-2 ml-4">
-              <li>- Contact Information: Name, email, phone, address</li>
-              <li>- Student Data: Name, age, year group, subjects</li>
-              <li>- Payment Information: Processed securely, we do not store</li>
-              <li>- Progress Data: Attendance, scores, reports</li>
-              <li>- Communication: Messages and feedback</li>
+              <li>- SmartEdge Education Services Ltd</li>
+              <li>- Trading as Ed-Heads Tuition – Derby</li>
+              <li>- Registered in England & Wales</li>
+              <li>- Email: peter.a@smartedgeeducationservicesltd.com</li>
+              <li>- Phone: 07930956793</li>
             </ul>
           </section>
 
