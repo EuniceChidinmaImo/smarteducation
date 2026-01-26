@@ -26,18 +26,6 @@ export default function EdHeadsLanding() {
 
   return (
     <div className="font-sans">
-      {/* Sticky Header */}
-      {/* <div className="sticky top-0 bg-white shadow-sm z-100">
-        <div className="max-w-6xl mx-auto px-6 py-4 flex justify-between items-center">
-          <h1 className="text-2xl font-bold text-blue-600">🎓 Smart-Edge Tuition</h1>
-          <button
-            onClick={() => handlePlanSelect('Quick')}
-            className="px-6 py-2 bg-orange-500 text-white rounded font-semibold text-sm hover:bg-orange-600 transition"
-          >
-            Book Now
-          </button>
-        </div>
-      </div> */}
 
       {/* Hero Section */}
       <div className="bg-gradient-to-r from-indigo-500 to-purple-600 text-white py-20 md:py-32">
@@ -55,19 +43,26 @@ export default function EdHeadsLanding() {
             </p>
 
             
-            <div className="flex gap-4 flex-wrap">
-              <button
-                onClick={() => handlePlanSelect('Assessment')}
-                className="px-6 py-3 bg-orange-500 text-white rounded font-semibold hover:bg-orange-600 transition"
-              >
-                📅 Book Free Assessment
-              </button>
-              <button
-                className="px-6 py-3 border-2 border-white text-white rounded font-semibold hover:bg-purple-600 hover:bg-opacity-10 transition"
-              >
-                Explore Learning Platform →
-              </button>
-            </div>
+            <div className="flex flex-wrap gap-4 items-center">
+  <a
+    href="https://calendly.com/peter-a-smartedgeeducationservicesltd/30min"
+    target="_blank"
+    rel="noopener noreferrer"
+    className="px-6 py-3 border-2 border-white bg-orange-500 text-white rounded font-semibold hover:bg-orange-600 transition text-center"
+  >
+    Book Free Assessment
+  </a>
+
+  <a
+    href="https://smartedgeedu.com"
+    target="_blank"
+    rel="noopener noreferrer"
+    className="px-6 py-3 border-2 border-white text-white rounded font-semibold hover:bg-white hover:text-purple-600 transition text-center"
+  >
+    Explore Learning Platform →
+  </a>
+</div>
+
           </div>
           <div className="text-center text-9xl">📚✨</div>
         </div>
@@ -92,49 +87,7 @@ export default function EdHeadsLanding() {
         </div>
       </div>
 
-      {/* Problem → Solution */}
-      {/* <div className="py-16 px-6 bg-white">
-        <div className="max-w-6xl mx-auto grid md:grid-cols-2 gap-12 items-center">
-          <div className='h-[300px]'>
-            <span className="inline-block px-3 py-1 bg-red-100 text-red-800 rounded text-xs font-semibold mb-4">The Challenge</span>
-            <h3 className="text-3xl font-bold mb-6">Is Your Child Struggling at School?</h3>
-            <h4 className="text-xl mb-6">Many students fall behind not because they lack ability — but because they don’t get the personalised support they need.</h4>
-            <div className="space-y-3">
-              <div className="flex gap-3">
-                <span className="text-2xl">❌</span>
-                <p>Large classrooms with limited one-to-one attention</p>
-              </div>
-              <div className="flex gap-3">
-                <span className="text-2xl">❌</span>
-                <p>Exam stress and falling confidence</p>
-              </div>
-              <div className="flex gap-3">
-                <span className="text-2xl">❌</span>
-                <p>Gaps in core subjects that go unnoticed</p>
-              </div>
-            </div>
-          </div>
-          <div className='h-[300px]'>
-            <span className="inline-block px-3 py-1 bg-green-100 text-green-800 rounded text-xs font-semibold mb-4">The Solution</span>
-            <h3 className="text-3xl font-bold mb-6">A Smarter, More Personal Approach to Tuition</h3>
-            <div className="space-y-3">
-              <div className="flex gap-3">
-                <span className="text-2xl">✅</span>
-                <p>Tailored learning plans built around your child</p>
-              </div>
-              <div className="flex gap-3">
-                <span className="text-2xl">✅</span>
-                <p>Expert tutors supported by smart learning technology</p>
-              </div>
-              <div className="flex gap-3">
-                <span className="text-2xl">✅</span>
-                <p>Real-time progress tracking so you always know how your child is doing</p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div> */}
-
+      {/* Challenge & Solution Section */}
       <div className="py-8 sm:py-12 lg:py-16 px-4 sm:px-6 bg-white">
   <div className="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-8 sm:gap-10 lg:gap-12">
     {/* The Challenge Section */}
@@ -213,7 +166,7 @@ export default function EdHeadsLanding() {
 
 
       {/* Pricing */}
-      <div className="py-16 px-6 bg-white">
+      <div id="pricing" className="py-16 px-6 bg-white scroll-mt-20">
         <div className="max-w-6xl mx-auto">
           <h3 className="text-center text-3xl font-bold mb-4">
             💰 Simple, Transparent Pricing
@@ -336,51 +289,26 @@ export default function EdHeadsLanding() {
            Start today and help your child build confidence, consistency, and results.
           </p>
           <div className="flex gap-6 justify-center flex-wrap">
-            <button
-              onClick={() => handlePlanSelect('Final')}
-              className="px-6 py-3 bg-orange-500 text-white rounded font-semibold hover:bg-orange-600 transition"
+            <a
+              href="#pricing"
+              className="px-6 py-3 bg-orange-500 text-white rounded font-semibold hover:bg-orange-600 transition text-center"
             >
               Choose a Tuition Plan 📚
-            </button>
-            <button
-              className="px-6 py-3 border-2 border-white text-white rounded font-semibold hover:bg-purple-600 hover:bg-opacity-10 transition"
-            >
-              Book Free Assessment 📅
-            </button>
+            </a>
+            <a
+    href="https://calendly.com/peter-a-smartedgeeducationservicesltd/30min"
+    target="_blank"
+    rel="noopener noreferrer"
+    className="px-6 py-3 border-2 border-white bg-orange-500 text-white rounded font-semibold hover:bg-orange-600 transition text-center"
+  >
+    Book Free Assessment
+  </a>
+
           </div>
         </div>
       </div>
 
-      {/* Footer */}
-      {/* <div className="bg-gray-800 text-white py-12 px-6">
-        <div className="max-w-6xl mx-auto grid md:grid-cols-3 gap-8 mb-8">
-          <div>
-            <h4 className="text-lg font-bold mb-4">Ed-Heads Tuition – Derby</h4>
-            <p className="text-sm text-gray-400">Personalized tuition for every child.</p>
-          </div>
-          <div>
-            <h4 className="text-lg font-bold mb-4">Quick Links</h4>
-            <div className="space-y-2 text-sm">
-              <p className="cursor-pointer">About Us</p>
-              <p className="cursor-pointer">Contact</p>
-              <p className="cursor-pointer">Privacy Policy</p>
-            </div>
-          </div>
-          <div>
-            <h4 className="text-lg font-bold mb-4">Connect</h4>
-            <div className="space-y-2 text-sm">
-              <p>📧 peter.a@smartedgeeducationservicesltd.com</p>
-              <p>📱 07930956793</p>
-            </div>
-          </div>
-        </div>
-        <div className="border-t border-gray-700 pt-8 text-center text-xs text-gray-500">
-          <p className="mb-2">© 2025 SmartEdge Education Services Ltd. Trading as Ed-Heads Tuition – Derby</p>
-          <p>Company registered in England & Wales</p>
-          <p>Ed-Heads is a registered brand, used under licence.</p>
-          
-        </div>
-      </div> */}
+      
 
       {/* Plan Selection Modal */}
       {showModal && (
