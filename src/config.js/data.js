@@ -7,18 +7,11 @@ export const navigationLinks = [
 
 
  export const plans = [
-    { name: 'Weekly Plan', price: '£30', period: 'per week - Best for short-term or flexible support', cta: 'Start Weekly Plan', highlight: false, savings: null },
-    { name: 'Monthly Plan', price: '£100', period: 'per month - Flexible and affordable ongoing support ✔ Cancel anytime  ✔ Full platform access', cta: 'Start Monthly Plan', highlight: true, savings: null },
-    { name: '3-Month Plan', price: '£250', period: 'for 3 months ✔ Consistent progress ✔ Priority tutor matching', cta: 'Save £50 — Start 3-Month Plan', highlight: false, savings: 'Save £50 - 🔥 Best Value' },
-    { name: 'Annual Plan', price: '£1,000', period: 'per year -  ✔ Lowest monthly cost  ✔ Long-term academic planning\n', cta: 'Save £200 — Start Annual Plan', highlight: false, savings: 'Save £200 MAXIMUM SAVINGS' },
+    { name: 'Weekly Plan', price: '£30', period: 'per week - Best for short-term or flexible support', cta: 'Start Weekly Plan', highlight: false, savings: null, url: 'https://buy.stripe.com/3cIdRb0Go4u62vY7WK0Fi00' },
+    { name: 'Monthly Plan', price: '£100', period: 'per month - Flexible and affordable ongoing support ✔ Cancel anytime  ✔ Full platform access', cta: 'Start Monthly Plan', highlight: true, savings: null, url: 'https://buy.stripe.com/cNibJ3cp6e4G1rUdh40Fi01' },
+    { name: '3-Month Plan', price: '£250', period: 'for 3 months ✔ Consistent progress ✔ Priority tutor matching', cta: 'Save £50 — Start 3-Month Plan', highlight: false, savings: 'Save £50 - 🔥 Best Value', url: 'https://buy.stripe.com/00w28tfBi2lYdaC4Ky0Fi02' },
+    { name: 'Annual Plan', price: '£1,000', period: 'per year -  ✔ Lowest monthly cost  ✔ Long-term academic planning\n', cta: 'Save £200 — Start Annual Plan', highlight: false, savings: 'Save £200 MAXIMUM SAVINGS', url: 'https://buy.stripe.com/9B68wRagY5ya8Umel80Fi03' },
   ];
-
-// const plans = [
-//     { name: 'Weekly Plan', price: '£30', period: 'per week - Best for short-term or flexible support', cta: 'Start Weekly Plan', highlight: false, savings: null },
-//     { name: 'Monthly Plan', price: '£100', period: 'per month - Flexible and affordable ongoing support', cta: 'Start Monthly Plan', highlight: true, savings: null },
-//     { name: '3-Month Plan', price: '£250', period: 'for 3 months - Consistent progress', cta: 'Save £50 — Start 3-Month Plan', highlight: false, savings: 'Save £50' },
-//     { name: 'Annual Plan', price: '£1,000', period: 'per year - Lowest monthly cost', cta: 'Save £200 — Start Annual Plan', highlight: false, savings: 'Save £200' },
-//   ];
 
  export const features = [
     { icon: '😊', title: 'Fun Engaging Learning', desc: 'Lessons designed to motivate, not overwhelm'},

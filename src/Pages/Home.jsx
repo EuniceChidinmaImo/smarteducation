@@ -197,8 +197,8 @@ export default function EdHeadsLanding() {
                 <h4 className="text-lg font-bold mb-2 mt-4">{plan.name}</h4>
                 <p className="text-4xl font-bold mb-1">{plan.price}</p>
                 <p className="text-sm opacity-90 mb-6">{plan.period}</p>
+                <a href={plan.url} target="_blank" rel="noopener noreferrer">
                 <button
-                  onClick={() => handlePlanSelect(plan.name)}
                   className={`w-full py-3 rounded font-semibold transition ${
                     plan.highlight
                       ? 'bg-orange-500 hover:bg-orange-600'
@@ -207,6 +207,7 @@ export default function EdHeadsLanding() {
                 >
                   {plan.cta}
                 </button>
+              </a>
               </div>
             ))}
           </div>
