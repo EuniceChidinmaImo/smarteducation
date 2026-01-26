@@ -1,4 +1,5 @@
- import Footer from "./Components/footer";
+
+import Footer from "./Components/Footer";
 import Header from "./Components/Header";
 import renderPage from "./Pages/renderPage";
 
@@ -35,7 +36,7 @@ function App() {
       {page}
     </div>
 
-    <Footer /></>
+    <Footer/></>
   );
 }
 
