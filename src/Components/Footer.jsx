@@ -91,7 +91,6 @@ const Footer = () => (
       </div>
 
       <div>
-        <a href="https://wa.me/447930956793" target="_blank" rel="noopener noreferrer" className="text-green-500 hover:text-green-600 font-semibold">💬 WhatsApp Us</a>
         <h4 className="text-lg font-bold mb-4">Quick Links</h4>
         <div className="space-y-2 text-sm flex flex-col">
           <a href="/smarteducation/about" className="hover:text-orange-400 transition-colors">About Us</a>
