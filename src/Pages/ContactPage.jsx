@@ -21,6 +21,9 @@
               <div>
                 <h4 className="font-bold text-lg mb-2">📞 Phone:</h4>
                 <p className="text-gray-700">+44(0)7930956793</p>
+                <a href="https://wa.me/447930956793" target="_blank" rel="noopener noreferrer" className="text-green-600 font-semibold hover:text-green-700">
+                  💬 Message us on WhatsApp
+                </a>
               </div>
               <div>
                 <h4 className="font-bold text-lg mb-2">📍 Service Area</h4>
