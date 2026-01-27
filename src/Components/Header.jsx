@@ -17,12 +17,12 @@ const Header = ({ currentPage, setCurrentPage, handlePlanSelect }) => {
         <div className="flex justify-between items-center">
           {/* Logo */}
           <div>
-            <a href="/smarteducation/" className="flex items-center gap-2 sm:gap-3">
+            <a href="/" className="flex items-center gap-2 sm:gap-3">
               <img 
                 src={SmartEdgeLogo}
                 alt="SmartEdgeLogo" 
                 className="h-12 w-auto sm:h-16 cursor-pointer"
-                onClick={() => setCurrentPage('home')}
+                onClick={() => setCurrentPage('/')}
               />
             </a>
           </div>

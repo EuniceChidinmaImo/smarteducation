@@ -92,15 +92,15 @@ const Footer = () => (
       <div>
         <h4 className="text-lg font-bold mb-4">Quick Links</h4>
         <div className="space-y-2 text-sm flex flex-col">
-          <a href="/smarteducation/about" className="hover:text-orange-400 transition-colors">About Us</a>
-          <a href="/smarteducation/contact" className="hover:text-orange-400 transition-colors">Contact</a>
-          <a href="/smarteducation/privacy" className="hover:text-orange-400 transition-colors">Privacy Policy</a>
-          <a href="/smarteducation/refund" className="hover:text-orange-400 transition-colors">Refund Policy</a>
-          <a href="/smarteducation/terms" className="hover:text-orange-400 transition-colors">Terms of Service</a>
+          <a href="/about" className="hover:text-orange-400 transition-colors">About Us</a>
+          <a href="/contact" className="hover:text-orange-400 transition-colors">Contact</a>
+          <a href="/privacy" className="hover:text-orange-400 transition-colors">Privacy Policy</a>
+          <a href="/refund" className="hover:text-orange-400 transition-colors">Refund Policy</a>
+          <a href="/terms" className="hover:text-orange-400 transition-colors">Terms of Service</a>
         </div>
       </div>
 
-      <div>
+      {/* <div>
         <h4 className="text-lg font-bold mb-4">Resources</h4>
         <div className="space-y-2 text-sm flex flex-col">
           <a href="https://smartedgeedu.com" target="_blank" rel="noopener noreferrer" className="hover:text-orange-400 transition-colors">Ed-Heads Platform</a>
@@ -108,7 +108,7 @@ const Footer = () => (
           <a href="#faq" className="hover:text-orange-400 transition-colors">FAQ</a>
           <a href="/smarteducation/blog" className="hover:text-orange-400 transition-colors">Blog</a>
         </div>
-      </div>
+      </div> */}
 
       <div>
         <h4 className="text-lg font-bold mb-4">Connect</h4>

@@ -6,18 +6,19 @@ import TermsPage from './T&C';
 import PrivacyPage from './P&P';
 
 const renderPage = (currentPage) => {
+  console.log("Rendering page for route:", currentPage);
   switch (currentPage) {
-    case 'home':
+    case '/':
       return <HomePage />;
-    case 'about':
+    case '/about':
       return <AboutPage />;
-    case 'contact':
+    case '/contact':
       return <ContactPage />;
-    case 'refund':
+    case '/refund':
       return <RefundPage />;
-    case 'terms':
+    case '/terms':
       return <TermsPage />;
-    case 'privacy':
+    case '/privacy':
       return <PrivacyPage />;
     default:
       return <HomePage />;

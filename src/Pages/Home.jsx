@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import {plans,features,testimonials,faqs} from '../config.js/data';
 
-export default function EdHeadsLanding() {
+export default function Home() {
   const [selectedPlan, setSelectedPlan] = useState(null);
   const [showModal, setShowModal] = useState(false);
   const [showSuccess, setShowSuccess] = useState(false);

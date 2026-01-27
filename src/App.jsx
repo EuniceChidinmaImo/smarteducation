@@ -1,33 +1,41 @@
 
+import { useEffect, useState } from "react";
 import Footer from "./Components/Footer";
 import Header from "./Components/Header";
 import renderPage from "./Pages/renderPage";
+import Home from "./Pages/Home";
+import AboutPage from "./Pages/AboutPage";
+import ContactPage from "./Pages/ContactPage";
+import RefundPage from "./Pages/RefundPage";
+import TermsPage from "./Pages/T&C";
+import PrivacyPage from "./Pages/P&P";
+
 
 function App() {
-  let route = 'home';
-  const path = window.location.pathname;
-  switch (path) {
-    case '/smarteducation/':
-      route = 'home';
-      break;
-    case '/smarteducation/about':
-      route = 'about';
-      break;
-    case '/smarteducation/contact':
-      route = 'contact';
-      break;
-    case '/smarteducation/refund':
-      route = 'refund';
-      break;
-    case '/smarteducation/terms':
-      route = 'terms';
-      break;
-    case '/smarteducation/privacy':
-      route = 'privacy';
-      break;
-    default:
-      break;
-  }
+  const [route, setCurrentRoute] = useState(window.location.pathname);
+
+  useEffect(() => {
+    setCurrentRoute(window.location.pathname)
+  }, [])
+
+
+
+  // switch (route) {
+  //   case '/':
+  //     return <Home/>;
+  //   case '/about':
+  //     return <AboutPage/>;
+  //   case '/contact':
+  //     return <ContactPage/>;
+  //   case '/refund':
+  //     return <RefundPage/>;
+  //   case '/terms':
+  //     return <TermsPage/>;
+  //   case '/privacy':
+  //     return <PrivacyPage/>;
+  //   default:
+  //     break;
+  // }
 
   const page = renderPage(route);
   return (

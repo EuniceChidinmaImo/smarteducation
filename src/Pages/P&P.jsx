@@ -52,8 +52,8 @@ const PrivacyPage = () => (
           <section>
             <h3 className="text-2xl font-bold mb-4">5. Data Sharing</h3>
             <ul className="space-y-2 ml-4">
-              <p className="font-bold"> We do NOT sell or rent your data.:</p>
-              <p className="font-bold"> We may share limited data with::</p>
+              <p className="font-bold"> We do NOT sell or rent your data.</p>
+              <p className="font-bold"> We may share limited data with:</p>
               <li>- Payment processors (Stripe)</li>
               <li>- Learning platform providers (Ed-Heads®, used under licence)</li>
               <li>- Legal or regulatory bodies where required</li>
