@@ -8,10 +8,13 @@ import ContactPage from "./Pages/ContactPage";
 import RefundPage from "./Pages/RefundPage";
 import TermsPage from "./Pages/T&C";
 import PrivacyPage from "./Pages/P&P";
+import NotFound from "./Pages/NotFound";
+import ScrollToTop from "./Components/ScrollToTop";
 
 function App() {
   return (
     <>
+      <ScrollToTop />
       <Header />
 
       <Routes>
@@ -21,6 +24,10 @@ function App() {
         <Route path="/refund" element={<RefundPage />} />
         <Route path="/terms" element={<TermsPage />} />
         <Route path="/privacy" element={<PrivacyPage />} />
+        <Route path="*" element={<NotFound />} />
+
+  
+  
       </Routes>
 
       <Footer />
