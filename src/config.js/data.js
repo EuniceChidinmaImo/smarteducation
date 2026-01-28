@@ -1,9 +1,9 @@
 export const navigationLinks = [
-    { label: 'About Us', id: '/about', link: '/about' },
-    { label: 'Contact', id: '/contact', link: '/contact' },
-    { label: 'Privacy Policy', id: '/privacy', link: '/privacy' },
-    
-  ];
+  { label: "About Us", link: "/about" },
+  { label: "Contact", link: "/contact" },
+  { label: "Privacy Policy", link: "/privacy" },
+];
+
 
 
  export const plans = [

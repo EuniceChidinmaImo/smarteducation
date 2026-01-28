@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 const Footer = () => (
   <div className="bg-gray-800 text-white py-12 px-6">
     <div className="max-w-6xl mx-auto grid md:grid-cols-4 gap-8 mb-8">
@@ -92,12 +94,22 @@ const Footer = () => (
       <div>
         <h4 className="text-lg font-bold mb-4">Quick Links</h4>
         <div className="space-y-2 text-sm flex flex-col">
-          <a href="/about" className="hover:text-orange-400 transition-colors">About Us</a>
-          <a href="/contact" className="hover:text-orange-400 transition-colors">Contact</a>
-          <a href="/privacy" className="hover:text-orange-400 transition-colors">Privacy Policy</a>
-          <a href="/refund" className="hover:text-orange-400 transition-colors">Refund Policy</a>
-          <a href="/terms" className="hover:text-orange-400 transition-colors">Terms of Service</a>
-        </div>
+  <Link to="/about" className="hover:text-orange-400 transition-colors">
+    About Us
+  </Link>
+  <Link to="/contact" className="hover:text-orange-400 transition-colors">
+    Contact
+  </Link>
+  <Link to="/privacy" className="hover:text-orange-400 transition-colors">
+    Privacy Policy
+  </Link>
+  <Link to="/refund" className="hover:text-orange-400 transition-colors">
+    Refund Policy
+  </Link>
+  <Link to="/terms" className="hover:text-orange-400 transition-colors">
+    Terms of Service
+  </Link>
+</div>
       </div>
 
       {/* <div>
